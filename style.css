@@ -149,7 +149,6 @@ section {
   font-style: normal;
   font-weight: 500;
   line-height: 127%;
-  /* 30.48px */
 }
 
 #hero #hero-content>p:nth-child(2) {
@@ -159,7 +158,6 @@ section {
   font-style: normal;
   font-weight: 700;
   line-height: 127%;
-  /* 50.8px */
 }
 
 #hero #hero-content>p:nth-child(3) {
@@ -170,7 +168,6 @@ section {
   font-style: normal;
   font-weight: 500;
   line-height: 127%;
-  /* 25.4px */
 }
 
 @media screen and (max-width:600px) {
@@ -235,7 +232,6 @@ section {
 }
 
 #search #search-button {
-  /* border: 2px solid red; */
   height: 42px;
   width: 55px;
   display: flex;
@@ -258,19 +254,17 @@ section {
 }
 
 #search #search-filter .filter {
-  padding: 30px;
-  /* border: 2px solid red; */
+  padding: 25px 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 240px;
   border-radius: 10px;
   color: white;
   font-family: Poppins;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 127%;
-  /* 20.32px */
 }
 
 #search #search-filter .filter:hover,
@@ -279,11 +273,11 @@ section {
 }
 
 #search #search-filter .filter:nth-child(1) {
-  background: #EAAA00;
+  background: #c38f01;
 }
 
 #search #search-filter .filter:nth-child(2) {
-  background: #C4D600;
+  background: #c7d80a;
 }
 
 #search #search-filter .filter:nth-child(3) {
@@ -296,23 +290,14 @@ section {
   padding: 0px;
   margin: 0vh 5vw;
   flex-wrap: wrap;
-  /* grid-template-rows: 1000px auto; */
   gap: 0px;
-  /* border: 2px solid red; */
-  /* position: relative; */
 }
 
 #All-recipes #filter {
-  /* height:2000px; */
-  /* position: absolute; */
-  /* height:1000px; */
   width: 20.4vw;
-  /* grid-column: 1; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* border: 2px solid green; */
-  /* height: 1000px; */
 }
 
 #Recipes {
@@ -320,12 +305,10 @@ section {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
-  /* border: 2px solid blue; */
 }
 
 #All-recipes #filter #filter-head {
-  padding: 20px 0px 40px 10px;
-  /* border: 2px solid red; */
+  padding: 20px 0px 10px 0px;
   color: #252525;
   font-family: Poppins;
   font-size: 1.3rem;
@@ -361,9 +344,9 @@ section {
   gap: 10px;
   color: #253D4E;
   font-family: Inter;
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -375,7 +358,6 @@ section {
   }
 
   #All-recipes #filter {
-      /* border: 2px solid red; */
       width: 100%;
       display: flex;
       gap: 20px;
@@ -416,11 +398,8 @@ section {
   min-width: 180px;
   min-height: 300px;
   width: 22vw;
-  /* height: 315px; */
-  /* border: 2px solid red; */
   border-radius: 16px;
   background: #FFF;
-  /* Shadow/shadow-sm */
   box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24);
 }
 
@@ -432,19 +411,18 @@ section {
 
 .card>p {
   padding: 0px 10px;
-  color: #A1A1A1;
+  padding-top: 10px !important;
+  color: #7f7e7e;
   font-family: Inter;
-  font-size: 0.6rem;
+  font-size: 1.2rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.4rem;
-  /* 240% */
 }
 
 .card .card-head,
 .card .card-base {
   padding: 0px 10px;
-  /* margin: 15px 0px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -467,7 +445,6 @@ section {
   font-style: normal;
   font-weight: 700;
   line-height: 1.4rem;
-  /* 120% */
 }
 
 .card .card-head>span:nth-child(2) {
@@ -483,13 +460,11 @@ section {
 
 .card .card-base>span:nth-child(1) {
   color: #DC582A;
-  /* Headings/h3 */
   font-family: Inter;
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
   line-height: 136.523%;
-  /* 27.305px */
 }
 
 .card .card-base>span:nth-child(2) {
@@ -516,7 +491,6 @@ footer>div {
   align-items: flex-start;
   gap: 70px;
   flex-wrap: wrap;
-  /* align-items: ; */
 }
 
 footer>div>div {
@@ -549,7 +523,6 @@ footer>div>div:nth-child(3) {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  /* 125% */
 }
 
 footer>div>div:nth-child(2)>span:nth-child(1),
@@ -560,7 +533,6 @@ footer>div>div:nth-child(3)>span:nth-child(1) {
   font-style: normal;
   font-weight: 600;
   line-height: 1.53rem;
-  /* 130% */
 }
 
 footer>div:nth-child(1)>div:nth-child(4) {
@@ -570,7 +542,6 @@ footer>div:nth-child(1)>div:nth-child(4) {
   gap: 24px;
   width: 400px;
   min-width: 300px;
-  /* border:2px solid red; */
 }
 
 @media screen and (max-width:1280px) {
@@ -590,7 +561,6 @@ footer>div>div:nth-child(4) span {
   font-style: normal;
   font-weight: 300;
   line-height: 1.18rem;
-  /* 142.857% */
   letter-spacing: 0.28px;
 }
 
@@ -616,13 +586,11 @@ footer>div>div:nth-child(4) #subscribe {
   padding: 12px;
   color: var(--purple-05, #FCFAFF);
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
-  /* Archivo/Body/Button */
   font-family: poppins;
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.2rem;
-  /* 125% */
   letter-spacing: 0.32px;
 }
 
